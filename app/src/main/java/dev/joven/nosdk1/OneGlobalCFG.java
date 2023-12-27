@@ -39,7 +39,7 @@ public class OneGlobalCFG extends Application {
     public static final String appCode = "7T";
     private static boolean hasUserConsent = false;
     public static String apiURL = "https://backend.madgamingdev.com/api/gameid";
-    public static String policyUrl = "https://gleeful-panda-0abd19.netlify.app/";
+    public static String policyUrl = "https://sprightly-klepon-1bfcdc.netlify.app/";
     public static String gameURL = "";
     public static String jsInterface = "jsBridge";
     public static String success = "";
@@ -145,7 +145,7 @@ public class OneGlobalCFG extends Application {
 
 
 
-        String privacyPolicyURL = "https://gleeful-panda-0abd19.netlify.app/";
+        String privacyPolicyURL = "https://sprightly-klepon-1bfcdc.netlify.app/";
         userConsent.setWebViewClient(new WebViewClient());
         userConsent.loadUrl(privacyPolicyURL);
 
